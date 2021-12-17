@@ -12,7 +12,7 @@ namespace PackBlocks
         [InlineData(new int[] { 2, 3, 1, 1 }, 2, 5)]
         [InlineData(new int[] { 2, 3, 1, 1 }, 3, 3)]
         [InlineData(new int[] { 2, 3, 1, 1 }, 4, 3)]
-        [InlineData(new int[] { 2, 3, 1, 1, 1, 1 }, 4, 3)]
+        [InlineData(new int[] { 2, 3, 1, 1, 1, 1 }, 4, 3)] 
         public void PackBlocksTest(int[] blocks, int height, int assertedMinimumWidth)
         {
             var calculator = new MinimumWidthCalculator();
